@@ -8,6 +8,7 @@ import { SidebarComponent } from './Layout/sidebar/sidebar.component';
 import { MainAppComponent } from './main-app/main-app.component';
 import { HomepageComponent } from './main-app/homepage/homepage.component';
 import { AboutComponent } from './main-app/about/about.component';
+import { SharedService } from './shared.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { AboutComponent } from './main-app/about/about.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [SharedService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
