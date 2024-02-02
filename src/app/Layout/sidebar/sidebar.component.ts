@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { SharedService } from '../../shared.service';
 import { Subscription } from 'rxjs';
 
@@ -8,19 +8,19 @@ import { Subscription } from 'rxjs';
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent implements OnInit, OnDestroy{
-  private subjekat: Subscription;
+  private subjekat: Subscription = new Subscription();
   visabilityOfDiv: boolean = false;
 
  constructor(private sharedService: SharedService){}
 
  ngOnInit(){
-  this.subjekat = this.sharedService.getMenuVisibility().subscribe((data)={
+  this.subjekat = this.sharedService.getMenuVisibility().subscribe((data)=>{
     this.visabilityOfDiv = data;
   })
-
-  ngOnDestroy(){
-    this.subjekat.unsubscribe();
-  }
  }
+
+ ngOnDestroy(){
+  this.subjekat.unsubscribe();
+}
 
 }
