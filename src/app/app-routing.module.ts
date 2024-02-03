@@ -5,9 +5,9 @@ import { AboutComponent } from './main-app/about/about.component';
 import { HomepageComponent } from './main-app/homepage/homepage.component';
 
 const routes: Routes = [
-  {path: '', component: MainAppComponent,children:[
+  {path: '', component: HomepageComponent,children:[
     {path: 'about', component: AboutComponent, pathMatch: 'full'},
-    {path: 'homepage', component: HomepageComponent, pathMatch: 'full'}
+    { path: "**", redirectTo: "" },
   ] }
 ];
 

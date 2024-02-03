@@ -8,19 +8,19 @@ import { Subscription } from 'rxjs';
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent implements OnInit, OnDestroy{
-  private subjekat: Subscription = new Subscription();
-  visabilityOfDiv: boolean = false;
+  private menuSubject: Subscription = new Subscription();
+  isMenuVisible: boolean = false;
 
  constructor(private sharedService: SharedService){}
 
  ngOnInit(){
-  this.subjekat = this.sharedService.getMenuVisibility().subscribe((data)=>{
-    this.visabilityOfDiv = data;
+  this.menuSubject = this.sharedService.getMenuVisibility().subscribe((data)=>{
+    this.isMenuVisible = data;
   })
  }
 
  ngOnDestroy(){
-  this.subjekat.unsubscribe();
+  this.menuSubject.unsubscribe();
 }
 
 }

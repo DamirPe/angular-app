@@ -2,15 +2,15 @@ import { Subject, Observable } from 'rxjs';
 
 
 export class SharedService {
-  private isDivVisible = false;
-  private visibilitySubject = new Subject<boolean>();
+  private menzOpen = false;
+  private menuVisibilitySubject = new Subject<boolean>();
 
   toggleMenu() {
-    this.isDivVisible = !this.isDivVisible;
-    this.visibilitySubject.next(this.isDivVisible);
+    this.menzOpen = !this.menzOpen;
+    this.menuVisibilitySubject.next(this.menzOpen);
   }
 
   getMenuVisibility(): Observable<boolean> {
-    return this.visibilitySubject.asObservable();
+    return this.menuVisibilitySubject.asObservable();
   }
 }

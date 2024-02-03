@@ -1,4 +1,14 @@
 .header{
     background-color: #333;
-    padding: 10px
+    padding: 10px;
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+    height: 40px;
+}
+
+.headerButton{
+    background: rgba(0, 0, 0, 0); 
+    border: none; 
+    cursor: pointer;
 }
