@@ -1,0 +1,16 @@
+.aboutTitle{
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.profilePic{
+    width: 100%;
+    height: auto;
+}
+
+.prfilePicDiv{
+    width: 200px;
+    height: 200px;
+    border-radius: 1000px;
+
+}
