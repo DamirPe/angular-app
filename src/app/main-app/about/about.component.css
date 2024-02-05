@@ -4,13 +4,40 @@
 }
 
 .profilePic{
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
 }
 
 .prfilePicDiv{
-    width: 200px;
-    height: 200px;
-    border-radius: 1000px;
+    margin-top: 40px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 40px;
 
 }
+
+
+.centerContent{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    height: 100vh;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 40px;
+ }
+ 
+.personalDataDiv{
+    display: flex;
+    align-content: center;
+}
+
