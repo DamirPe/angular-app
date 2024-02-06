@@ -1,9 +1,9 @@
 <div class="aboutTitle">
-    <h1>About me</h1>
+    <h1>About Me</h1>
 </div>
-<div class="row">
-    <div class="col-xs-3 leftContent text-center items-center">
-       <div class="prfilePicDiv">
+<div class="row" style="height: 100vh;">
+    <div class="col-xs-3 leftContent text-center">
+       <div class="profilePicDiv">
         <img class="profilePic" src="assets/images/profile_pic.jpg" alt="profile_picture">
        </div>
        <div class="personalDataDiv">
@@ -27,9 +27,100 @@
        </button>
     </div>
 
-    <div class="col-xs-6 centerContent">
+    <div class="col-xs-6 centerContent text-center">
         <h2 style="text-align: center;">Professional CV of Damir Penavić</h2>
+        <div class="section">
+            <h3>Education</h3>
+            <ul>
+                <li>2003 - 2012: Elementary School</li>
+                <p>Elementary School A.B.Šimić, Mostar</p>
+    
+                <li>2012 - 2016: High School</li>
+                <p>High School fra. Grge Martića, Mostar</p>
+    
+                <li>2016 - 2020: Undergraduate Studies</li>
+                <p>
+                    Faculty of Electrical Engineering and Computing (FER), Zagreb<br>
+                    Study: Electrical Engineering and Information Technology<br>
+                    Major: Automation
+                </p>
+    
+                <li>2020 - Present: Graduate Study</li>
+                <p>
+                    Faculty of Electrical Engineering and Computing (FER), Zagreb<br>
+                    Study: Electrical Engineering and Information Technology<br>
+                    Major: Electrical Engineering and Automation
+                </p>
+            </ul>
+        </div>
+    
+        <div class="section">
+            <h3>Professional Practice</h3>
+            <ul>
+                <li>FEAL d.o.o. Široki Brijeg</li>
+                <ul>
+                    <li>Familiarization with automation processes in the company</li>
+                    <li>Practical work on controlling a three-phase motor</li>
+                </ul>
+            </ul>
+        </div>
+    
+        <div class="section">
+            <h3>Technical Skills</h3>
+            <p>
+                Knowledge of working in various software packages (MS Office, EPlan, MatLab, TIA Portal, Angular)
+            </p>
+        </div>
+    
+        <div class="section">
+            <h3>Foreign Languages</h3>
+            <p>English language - active</p>
+        </div>
+    
+        <div class="section">
+            <h3>Social Skills</h3>
+            <p>Teamwork, openness to cooperation and ideas of collaborators, persistence in solving problems</p>
+        </div>
+    
+        <div class="section">
+            <h3>Driving License</h3>
+            <p>I have a category B driver's license</p>
+        </div>
     </div>
-    <div class="col-xs-3">
+    <div class="col-xs-3 text-center right-content">
+        <div>
+            <div class="blackBorder">
+                <a (click)="onAc1()" class="acLink">accordion1</a>
+            </div>
+            <div *ngIf="acOpen[0]">
+                <div *ngFor="let ac1 of accordion1" class="blackBorder">
+                    {{ ac1 }}
+                </div>
+            </div>
+            <div class="blackBorder">
+                <a (click)="onAc2()" class="acLink">accordion2</a>
+            </div>
+            <div *ngIf="acOpen[1]">
+                <div *ngFor="let ac2 of accordion2" class="blackBorder">
+                    {{ ac2 }}
+                </div>
+            </div>
+            <div class="blackBorder">
+                <a (click)="onAc3()" class="acLink">accordion3</a>
+            </div>
+            <div  *ngIf="acOpen[2]">
+                <div *ngFor="let ac3 of accordion3" class="blackBorder">
+                    {{ ac3 }}
+                </div>
+            </div>
+            <div class="blackBorder">
+                <a (click)="onAc4()" class="acLink">accordion4</a>
+            </div>
+            <div *ngIf="acOpen[3]">
+                <div *ngFor="let ac4 of accordion4" class="blackBorder">
+                {{ ac4 }}
+            </div>
+            </div>
+           
     </div>
 </div>
