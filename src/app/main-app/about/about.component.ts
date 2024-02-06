@@ -14,6 +14,10 @@ export class AboutComponent {
   
   acOpen = [false, false, false, false];
 
+  openWebsite(): void{
+    window.open('https://www.linkedin.com/in/damir-penavi%C4%87-577786277/', '_blank');
+  }
+
   onAc1(){
     for(let i = 0; i < this.acOpen.length; i++){
       if(i == 0){
