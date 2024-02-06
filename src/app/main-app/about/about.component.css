@@ -60,8 +60,14 @@ h2{
     border-bottom: 2px solid black;
 }
 
+
 .acLink{
     text-decoration: none;
-    color: black;
+    color: white;
     cursor: pointer;
+}
+
+
+.linkColor{
+    background-color: rgb(0, 102, 254);
 }

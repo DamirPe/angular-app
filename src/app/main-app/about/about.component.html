@@ -89,7 +89,7 @@
     </div>
     <div class="col-xs-3 text-center right-content">
         <div>
-            <div class="blackBorder">
+            <div class="blackBorder linkColor" style="border-top: 2px solid black;">
                 <a (click)="onAc1()" class="acLink">accordion1</a>
             </div>
             <div *ngIf="acOpen[0]">
@@ -97,7 +97,7 @@
                     {{ ac1 }}
                 </div>
             </div>
-            <div class="blackBorder">
+            <div class="blackBorder linkColor">
                 <a (click)="onAc2()" class="acLink">accordion2</a>
             </div>
             <div *ngIf="acOpen[1]">
@@ -105,7 +105,7 @@
                     {{ ac2 }}
                 </div>
             </div>
-            <div class="blackBorder">
+            <div class="blackBorder linkColor">
                 <a (click)="onAc3()" class="acLink">accordion3</a>
             </div>
             <div  *ngIf="acOpen[2]">
@@ -113,7 +113,7 @@
                     {{ ac3 }}
                 </div>
             </div>
-            <div class="blackBorder">
+            <div class="blackBorder linkColor">
                 <a (click)="onAc4()" class="acLink">accordion4</a>
             </div>
             <div *ngIf="acOpen[3]">
