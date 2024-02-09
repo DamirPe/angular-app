@@ -10,6 +10,7 @@ import { SharedService } from '../../shared.service';
 export class FormsComponent implements OnInit {
   signupForm: FormGroup;
   currentDate: Date;
+  setOnSubmit = false;
 
   constructor(private sharedService: SharedService) {
     this.currentDate = new Date();
@@ -17,30 +18,22 @@ export class FormsComponent implements OnInit {
 
   ngOnInit() {
     this.signupForm = new FormGroup({
-      'username': new FormControl(null, { updateOn: 'submit' }),
-      'password': new FormControl(null, { updateOn: 'submit' }),
-      'email': new FormControl(null, { updateOn: 'submit' }),
-      'age': new FormControl(null, { updateOn: 'submit' }),
-      'startDate': new FormControl(null, { updateOn: 'submit' }),
+      'username': new FormControl(null, Validators.required),
+      'password': new FormControl(null, [Validators.required, Validators.minLength(8), Validators.maxLength(16)]),
+      'email': new FormControl(null, [Validators.required, Validators.email]),
+      'age': new FormControl(null, [Validators.required, Validators.min(18), Validators.max(65)]),
+      'startDate': new FormControl(null, [Validators.required, this.dateValidator.bind(this)]),
       'check': new FormControl(null),
       'description': new FormControl(null),
-      'selectPlan': new FormControl(null, { updateOn: 'submit' }),
-      'theme': new FormControl('#ffffff', { updateOn: 'submit' })
+      'selectPlan': new FormControl(null, Validators.required),
+      'theme': new FormControl('#ffffff')
     });
   }
 
   
 
   onSubmit() {
-    this.signupForm.get('username').setValidators([Validators.required]);
-    this.signupForm.get('password').setValidators([Validators.required, Validators.minLength(8), Validators.maxLength(16)]);
-    this.signupForm.get('email').setValidators([Validators.required, Validators.email]);
-    this.signupForm.get('age').setValidators([Validators.required, Validators.min(18), Validators.max(65)]);
-    this.signupForm.get('startDate').setValidators([Validators.required, this.dateValidator.bind(this)]);
-    this.signupForm.get('selectPlan').setValidators([Validators.required]);
-
-    this.signupForm.updateValueAndValidity();
-
+    this.setOnSubmit = true;
     this.sharedService.pickMainAppColor(this.signupForm.get('theme').value);
   }
 
