@@ -18,6 +18,7 @@ export class MainAppComponent implements OnInit, OnDestroy {
     this.themeSubscription = this.sharedService.getMainAppTheme().subscribe
     ((data)=>{
       this.theme = data;
+      console.log(data);
     })
   }
 

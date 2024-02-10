@@ -21,3 +21,11 @@ hr {
     display: flex;
     justify-content: left;
 }
+
+span{
+    color: red;
+}
+
+.redBorderColor{
+    border-color: red;
+}
