@@ -23,7 +23,9 @@ export class FormsComponent implements OnInit {
           Validators.required,
           Validators.minLength(8),
           Validators.maxLength(16),
-          this.passwordCheck.bind(this)
+          Validators.pattern(/[A-Z]/), 
+          Validators.pattern(/[a-z]/), 
+          Validators.pattern(/\d/) 
         ]),
       'email': new FormControl(null, [Validators.required, Validators.email]),
       'age': new FormControl(null, [Validators.required, Validators.min(18), Validators.max(65)]),
@@ -53,15 +55,15 @@ export class FormsComponent implements OnInit {
     return null;
   }
 
-  passwordCheck(control: FormControl):{[s: string]:boolean}{
-    const uppercaseRegex = /[A-Z]/;
-    const lowercaseRegex = /[a-z]/;
-    const numberRegex = /\d/;
+  // passwordCheck(control: FormControl):{[s: string]:boolean}{
+  //   const uppercaseRegex = /[A-Z]/;
+  //   const lowercaseRegex = /[a-z]/;
+  //   const numberRegex = /\d/;
     
 
-    if(uppercaseRegex.test(control.value) && lowercaseRegex.test(control.value) && numberRegex.test(control.value)){
-      return {'correctPassword': true};
-    }
-    return null;
-  }
+  //   if(uppercaseRegex.test(control.value) && lowercaseRegex.test(control.value) && numberRegex.test(control.value)){
+  //     return {'correctPassword': true};
+  //   }
+  //   return null;
+  // }
 }
