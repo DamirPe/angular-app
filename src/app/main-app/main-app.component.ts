@@ -5,7 +5,7 @@ import { Subscription } from 'rxjs';
 @Component({
   selector: 'app-main-app',
   templateUrl: './main-app.component.html',
-  styleUrl: './main-app.component.css'
+  styleUrls: ['./main-app.component.css']
 })
 export class MainAppComponent implements OnInit, OnDestroy {
   private themeSubscription: Subscription = new Subscription();
@@ -19,7 +19,7 @@ export class MainAppComponent implements OnInit, OnDestroy {
     ((data)=>{
       this.theme = data;
       console.log(data);
-    })
+    });
   }
 
   ngOnDestroy(){
