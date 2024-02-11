@@ -9,6 +9,8 @@ import { MainAppComponent } from './main-app/main-app.component';
 import { HomepageComponent } from './main-app/homepage/homepage.component';
 import { AboutComponent } from './main-app/about/about.component';
 import { SharedService } from './shared.service';
+import { FormsComponent } from './main-app/forms/forms.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,10 +20,12 @@ import { SharedService } from './shared.service';
     MainAppComponent,
     HomepageComponent,
     AboutComponent,
+    FormsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [SharedService],
   bootstrap: [AppComponent]

@@ -12,15 +12,23 @@ export class AppComponent implements OnInit, OnDestroy {
   private menuSubject: Subscription = new Subscription();
   menuOpened: boolean = false;
 
+  private themeSubscription: Subscription = new Subscription();
+  theme: string;
+  
   constructor(private sharedService: SharedService) {}  
   
   ngOnInit() {
     this.menuSubject = this.sharedService.getMenuVisibility().subscribe((data)=>{
       this.menuOpened = data;
     });
+    this.themeSubscription = this.sharedService.themeColor$.subscribe(data=>{
+      this.theme = data;
+      console.log(data);
+    })
   }
 
   ngOnDestroy() {
     this.menuSubject.unsubscribe();
+    this.themeSubscription.unsubscribe();
   }
 }

@@ -3,12 +3,19 @@ import { RouterModule, Routes } from '@angular/router';
 import { MainAppComponent } from './main-app/main-app.component';
 import { AboutComponent } from './main-app/about/about.component';
 import { HomepageComponent } from './main-app/homepage/homepage.component';
+import { FormsComponent } from './main-app/forms/forms.component';
 
 const routes: Routes = [
-  {path: '', component: HomepageComponent, children:[
-    {path: 'about', component: AboutComponent},
-    { path: "**", redirectTo: "" },
-  ] }
+  {
+    path: '', component: MainAppComponent,
+    children:
+    [
+      {path: '', component: HomepageComponent, pathMatch: 'full'},
+      {path: 'about', component: AboutComponent, pathMatch: 'full'},
+      {path: 'forms', component: FormsComponent, pathMatch: 'full'},
+    ],
+  },
+  { path: "**", redirectTo: "" },
 ];
 
 @NgModule({

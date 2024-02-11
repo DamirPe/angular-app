@@ -1,28 +1,14 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
-import { SharedService } from '../shared.service';
-import { Subscription } from 'rxjs';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-main-app',
   templateUrl: './main-app.component.html',
   styleUrl: './main-app.component.css'
 })
-export class MainAppComponent implements OnInit, OnDestroy {
-  private themeSubscription: Subscription = new Subscription();
-  theme: string;
+export class MainAppComponent implements OnInit {
 
-  constructor(private sharedService: SharedService){
-  }
+  constructor(){}
 
-  ngOnInit(){
-    this.themeSubscription = this.sharedService.getMainAppTheme().subscribe
-    ((data)=>{
-      this.theme = data;
-      console.log(data);
-    })
-  }
+  ngOnInit(){}
 
-  ngOnDestroy(){
-    this.themeSubscription.unsubscribe();
-  }
 }
