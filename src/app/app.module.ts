@@ -10,8 +10,7 @@ import { HomepageComponent } from './main-app/homepage/homepage.component';
 import { AboutComponent } from './main-app/about/about.component';
 import { SharedService } from './shared.service';
 import { FormsComponent } from './main-app/forms/forms.component';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,12 +21,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     HomepageComponent,
     AboutComponent,
     FormsComponent
-  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule,
     ReactiveFormsModule
   ],
   providers: [SharedService],

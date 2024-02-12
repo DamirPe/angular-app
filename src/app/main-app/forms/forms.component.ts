@@ -41,7 +41,7 @@ export class FormsComponent implements OnInit {
 
   onSubmit() {
     this.setOnSubmit = true;
-    this.sharedService.pickMainAppColor(this.signupForm.get('theme').value);
+    this.sharedService.setThemeColor(this.signupForm.get('theme').value);
   }
 
   dateValidator(control: FormControl):{[s: string]: boolean}{

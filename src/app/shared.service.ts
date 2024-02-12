@@ -7,6 +7,9 @@ export class SharedService {
   private mainAppThemeObs = new BehaviorSubject<string>(null);
   private mainAppColor = '#ffffff';
 
+  private dataSourceThemeColor = new BehaviorSubject<string>("#fff"); // #fff is the initial value that is emitted when a component subscribes to themeColor$
+  themeColor$ = this.dataSourceThemeColor.asObservable(); // $ at the end is a convention to indicate that a variable is an observable
+
   toggleMenu() {
     this.menzOpen = !this.menzOpen;
     this.menuVisibilitySubject.next(this.menzOpen);
@@ -16,12 +19,11 @@ export class SharedService {
     return this.menuVisibilitySubject.asObservable();
   }
 
-  pickMainAppColor(color: string){
-    this.mainAppColor = color;
-    this.mainAppThemeObs.next(this.mainAppColor);
-  }
-
   getMainAppTheme(): Observable<string>{
     return this.mainAppThemeObs.asObservable();
+  }
+
+  setThemeColor(color: string) {
+    this.dataSourceThemeColor.next(color); // every component that is subscribed to themeColor$ will receive the new color
   }
 }
