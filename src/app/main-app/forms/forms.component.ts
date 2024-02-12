@@ -35,6 +35,11 @@ export class FormsComponent implements OnInit {
       'selectPlan': new FormControl(null, Validators.required),
       'theme': new FormControl('#ffffff')
     });
+    
+    const savedFormData = localStorage.getItem('formData');
+    if (savedFormData) {
+      this.signupForm.patchValue(JSON.parse(savedFormData));
+    }
 }
 
   
@@ -42,6 +47,8 @@ export class FormsComponent implements OnInit {
   onSubmit() {
     this.setOnSubmit = true;
     this.sharedService.setThemeColor(this.signupForm.get('theme').value);
+
+    localStorage.setItem('formData', JSON.stringify(this.signupForm.value));
   }
 
   dateValidator(control: FormControl):{[s: string]: boolean}{
@@ -55,15 +62,4 @@ export class FormsComponent implements OnInit {
     return null;
   }
 
-  // passwordCheck(control: FormControl):{[s: string]:boolean}{
-  //   const uppercaseRegex = /[A-Z]/;
-  //   const lowercaseRegex = /[a-z]/;
-  //   const numberRegex = /\d/;
-    
-
-  //   if(uppercaseRegex.test(control.value) && lowercaseRegex.test(control.value) && numberRegex.test(control.value)){
-  //     return {'correctPassword': true};
-  //   }
-  //   return null;
-  // }
 }
