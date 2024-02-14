@@ -1,8 +1,8 @@
 <div class="selestionDiv">
-    <select name="countries" id="countries" class="center" [(ngModel)]="selectedCountry" (change)="onSelectChange()">
-        <option *ngFor="let country of countries" [value]="country">{{ country.name }}</option>
+    <select name="countries" id="" class="center" (change)="onSelectChange(country.value)" #country>
+        <option *ngFor="let country of countries" [value]="country.id">{{ country.name }}</option>
     </select>
-    <select name="towns" id="towns" class="center">
-        <option *ngFor="let town of towns | filterTowns: selectedCountry.id" [value]="town">{{ town.name }}</option>
+    <select name="towns" id="" class="center">
+        <option *ngFor="let town of towns | filterTowns: country.value" [value]="town.id">{{ town.name }}</option>
     </select>
 </div>

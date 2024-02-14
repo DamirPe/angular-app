@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class PipesComponent {
 
-  selectedCountry: { id: string, name: string } | null;
+  selectedCountry: { id: string, name: string };
 
   countries: { id: string, name: string }[] = [
     { id: "HR", name: "Croatia" },
@@ -47,7 +47,8 @@ export class PipesComponent {
     { id: "BA", name: "Bar", parentId: "ME" }
   ];
 
-  onSelectChange(){
-    console.log(this.selectedCountry);
+  onSelectChange(selectedElement: any){
+    const selectedId = selectedElement;
+    console.log(selectedId);
   }
 }
