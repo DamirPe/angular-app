@@ -10,7 +10,10 @@ import { HomepageComponent } from './main-app/homepage/homepage.component';
 import { AboutComponent } from './main-app/about/about.component';
 import { SharedService } from './shared.service';
 import { FormsComponent } from './main-app/forms/forms.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { PipesComponent } from './main-app/pipes/pipes.component';
+import { TownFilter } from './town-filter.pipe';
+import { SortPipe } from './sort.pipe';
 
 @NgModule({
   declarations: [
@@ -20,12 +23,16 @@ import { ReactiveFormsModule } from '@angular/forms';
     MainAppComponent,
     HomepageComponent,
     AboutComponent,
-    FormsComponent
+    FormsComponent,
+    PipesComponent,
+    TownFilter,
+    SortPipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [SharedService],
   bootstrap: [AppComponent]

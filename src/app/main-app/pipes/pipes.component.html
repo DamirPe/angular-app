@@ -1,0 +1,8 @@
+<div class="selestionDiv">
+    <select name="countries" id="" class="center" (change)="onSelectChange(country.value)" #country>
+        <option *ngFor="let country of countries | sort" [value]="country.id">{{ country.name }}</option>
+    </select>
+    <select name="towns" id="" class="center">
+        <option *ngFor="let town of towns | filterTowns: country.value | sort" [value]="town.id">{{ town.name }}</option>
+    </select>
+</div>
