@@ -9,42 +9,40 @@ export class PipesComponent {
 
   selectedCountry: { id: string, name: string };
 
-  countries: { id: string, name: string }[] = [
-    { id: "HR", name: "Croatia" },
-    { id: "BA", name: "Bosnia and Herzegovina" },
-    { id: "RS", name: "Serbia" },
-    { id: "ME", name: "Montenegro" }
+  countries: { id: string, name: string, population: number }[] = [
+    { id: "HR", name: "Croatia", population: 4089400 },
+    { id: "BA", name: "Bosnia and Herzegovina", population: 3500000 },
+    { id: "RS", name: "Serbia", population: 7057412 },
+    { id: "ME", name: "Montenegro", population: 622359 }
   ];
-  towns: { id: string, name: string, parentId: string }[] = [
-    { id: "ZG", name: "Zagreb", parentId: "HR" },
-    { id: "SP", name: "Split", parentId: "HR" },
-    { id: "DB", name: "Dubrovnik", parentId: "HR" },
-    { id: "SJ", name: "Sarajevo", parentId: "BA" },
-    { id: "TZ", name: "Tuzla", parentId: "BA" },
-    { id: "BJ", name: "Banja Luka", parentId: "BA" },
-    { id: "BG", name: "Belgrade", parentId: "RS" },
-    { id: "NS", name: "Novi Sad", parentId: "RS" },
-    { id: "NI", name: "Niš", parentId: "RS" },
-    { id: "PG", name: "Podgorica", parentId: "ME" },
-    { id: "BT", name: "Budva", parentId: "ME" },
-    { id: "CB", name: "Cetinje", parentId: "ME" },
-    { id: "DBV", name: "Dubrovnik", parentId: "HR" },
-    { id: "RI", name: "Rijeka", parentId: "HR" },
-    { id: "OS", name: "Osijek", parentId: "HR" },
-    { id: "TV", name: "Travnik", parentId: "BA" },
-    { id: "BIH", name: "Bihać", parentId: "BA" },
-    { id: "MO", name: "Mostar", parentId: "BA" },
-    { id: "NIK", name: "Nišić", parentId: "RS" },
-    { id: "KR", name: "Kragujevac", parentId: "RS" },
-    { id: "SOM", name: "Sombor", parentId: "RS" },
-    { id: "HOT", name: "Herceg Novi", parentId: "ME" },
-    { id: "TK", name: "Tivat", parentId: "ME" },
-    { id: "BDO", name: "Budva", parentId: "ME" },
-    { id: "HK", name: "Herceg Kovačević", parentId: "ME" },
-    { id: "DGD", name: "Danilovgrad", parentId: "ME" },
-    { id: "BJE", name: "Bijelo Polje", parentId: "ME" },
-    { id: "PL", name: "Pljevlja", parentId: "ME" },
-    { id: "BA", name: "Bar", parentId: "ME" }
+  towns: { id: string, name: string, parentId: string, population: number }[] = [
+    { id: "ZG", name: "Zagreb", parentId: "HR", population: 802762 },
+    { id: "SP", name: "Split", parentId: "HR", population: 178102 },
+    { id: "DB", name: "Dubrovnik", parentId: "HR", population: 28506 },
+    { id: "SJ", name: "Sarajevo", parentId: "BA", population: 395133 },
+    { id: "TZ", name: "Tuzla", parentId: "BA", population: 110979 },
+    { id: "BJ", name: "Banja Luka", parentId: "BA", population: 199191 },
+    { id: "BG", name: "Belgrade", parentId: "RS", population: 1233790 },
+    { id: "NS", name: "Novi Sad", parentId: "RS", population: 341625 },
+    { id: "NI", name: "Niš", parentId: "RS", population: 183164 },
+    { id: "PG", name: "Podgorica", parentId: "ME", population: 204877 },
+    { id: "BT", name: "Budva", parentId: "ME", population: 19760 },
+    { id: "CB", name: "Cetinje", parentId: "ME", population: 14700 },
+    { id: "RI", name: "Rijeka", parentId: "HR", population: 128624 },
+    { id: "OS", name: "Osijek", parentId: "HR", population: 83496 },
+    { id: "TV", name: "Travnik", parentId: "BA", population: 31404 },
+    { id: "BIH", name: "Bihać", parentId: "BA", population: 45841 },
+    { id: "MO", name: "Mostar", parentId: "BA", population: 113169 },
+    { id: "NIK", name: "Nišić", parentId: "RS", population: 15864 },
+    { id: "KR", name: "Kragujevac", parentId: "RS", population: 150835 },
+    { id: "SOM", name: "Sombor", parentId: "RS", population: 47628 },
+    { id: "HOT", name: "Herceg Novi", parentId: "ME", population: 23058 },
+    { id: "TK", name: "Tivat", parentId: "ME", population: 14647 },
+    { id: "HK", name: "Herceg Kovačević", parentId: "ME", population: 23058 },
+    { id: "DGD", name: "Danilovgrad", parentId: "ME", population: 5844 },
+    { id: "BJE", name: "Bijelo Polje", parentId: "ME", population: 46140 },
+    { id: "PL", name: "Pljevlja", parentId: "ME", population: 30170 },
+    { id: "BA", name: "Bar", parentId: "ME", population: 44274 }
   ];
 
   onSelectChange(selectedElement: any){

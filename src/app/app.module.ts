@@ -13,6 +13,7 @@ import { FormsComponent } from './main-app/forms/forms.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PipesComponent } from './main-app/pipes/pipes.component';
 import { TownFilter } from './town-filter.pipe';
+import { SortPipe } from './sort.pipe';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { TownFilter } from './town-filter.pipe';
     AboutComponent,
     FormsComponent,
     PipesComponent,
-    TownFilter
+    TownFilter,
+    SortPipe
   ],
   imports: [
     BrowserModule,
