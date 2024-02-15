@@ -10,3 +10,40 @@
 .center{
    margin: 20px;
 }
+
+.countryFlag{
+    width: 100px;
+    border-right: none;
+}
+
+.plus {
+    height: 20px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin: none;
+  }
+  
+select {
+    height: 20px;
+  }
+
+input{
+    height: 20px;
+}  
+
+.callNumberDiv{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}  
+
+.callNumberInput{
+    border: 1px solid gray;
+    border-left: none;
+    appearance: none;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  appearance: none;
+  margin: 0;
+}

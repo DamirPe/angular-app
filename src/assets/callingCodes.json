@@ -1,0 +1,1994 @@
+[
+    {
+        "id": 3,
+        "name": "Afghanistan",
+        "code": "AF",
+        "icon": "Afghanistan-Flag-32.png",
+        "callingCodeId": 93,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 16,
+        "name": "Åland Islands",
+        "code": "AX",
+        "icon": "Aland-Islands-32.png",
+        "callingCodeId": 35818,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 6,
+        "name": "Albania",
+        "code": "AL",
+        "icon": "Albania-Flag-32.png",
+        "callingCodeId": 355,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 60,
+        "name": "Algeria",
+        "code": "DZ",
+        "icon": "Algeria-Flag-32.png",
+        "callingCodeId": 213,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 12,
+        "name": "American Samoa",
+        "code": "AS",
+        "icon": "Samoa-Flag-32.png",
+        "callingCodeId": 1684,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 1,
+        "name": "Andorra",
+        "code": "AD",
+        "icon": "Andorra-Flag-32.png",
+        "callingCodeId": 376,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 9,
+        "name": "Angola",
+        "code": "AO",
+        "icon": "Angola-Flag-32.png",
+        "callingCodeId": 244,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 5,
+        "name": "Anguilla",
+        "code": "AI",
+        "icon": "Anguilla-Flag-32.png",
+        "callingCodeId": 1264,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 10,
+        "name": "Antarctica",
+        "code": "AQ",
+        "icon": "Antarctica-32.png",
+        "callingCodeId": 6721,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 4,
+        "name": "Antigua and Barbuda",
+        "code": "AG",
+        "icon": "Antigua-and-Barbuda-32.png",
+        "callingCodeId": 1286,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 11,
+        "name": "Argentina",
+        "code": "AR",
+        "icon": "Argentina-Flag-32.png",
+        "callingCodeId": 54,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 7,
+        "name": "Armenia",
+        "code": "AM",
+        "icon": "Armenia-Flag-32.png",
+        "callingCodeId": 374,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 15,
+        "name": "Aruba",
+        "code": "AW",
+        "icon": "Aruba-32.png",
+        "callingCodeId": 297,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 14,
+        "name": "Australia",
+        "code": "AU",
+        "icon": "Australia-Flag-32.png",
+        "callingCodeId": 61,
+        "isMainCountryCallingCode": true
+    },
+    {
+        "id": 13,
+        "name": "Austria",
+        "code": "AT",
+        "icon": "Austria-Flag-32.png",
+        "callingCodeId": 43,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 17,
+        "name": "Azerbaijan",
+        "code": "AZ",
+        "icon": "Azerbaijan-Flag-32.png",
+        "callingCodeId": 994,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 31,
+        "name": "Bahamas",
+        "code": "BS",
+        "icon": "Bahamas-Flag-32.png",
+        "callingCodeId": 1242,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 24,
+        "name": "Bahrain",
+        "code": "BH",
+        "icon": "Bahrain-Flag-32.png",
+        "callingCodeId": 973,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 20,
+        "name": "Bangladesh",
+        "code": "BD",
+        "icon": "Bangladesh-Flag-32.png",
+        "callingCodeId": 880,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 19,
+        "name": "Barbados",
+        "code": "BB",
+        "icon": "Barbados-Flag-32.png",
+        "callingCodeId": 1246,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 35,
+        "name": "Belarus",
+        "code": "BY",
+        "icon": "Belarus-Flag-32.png",
+        "callingCodeId": 375,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 21,
+        "name": "Belgium",
+        "code": "BE",
+        "icon": "Belgium-Flag-32.png",
+        "callingCodeId": 32,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 36,
+        "name": "Belize",
+        "code": "BZ",
+        "icon": "Belize-Flag-32.png",
+        "callingCodeId": 501,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 26,
+        "name": "Benin",
+        "code": "BJ",
+        "icon": "Benin-Flag-32.png",
+        "callingCodeId": 229,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 27,
+        "name": "Bermuda",
+        "code": "BM",
+        "icon": "Bermuda-32.png",
+        "callingCodeId": 1441,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 32,
+        "name": "Bhutan",
+        "code": "BT",
+        "icon": "Bhutan-Flag-32.png",
+        "callingCodeId": 975,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 29,
+        "name": "Bolivia",
+        "code": "BO",
+        "icon": "Bolivia-Flag-32.png",
+        "callingCodeId": 591,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 18,
+        "name": "Bosnia and Herzegovina",
+        "code": "BA",
+        "icon": "Bosnian-Flag-32.png",
+        "callingCodeId": 387,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 34,
+        "name": "Botswana",
+        "code": "BW",
+        "icon": "Botswana-Flag-32.png",
+        "callingCodeId": 267,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 33,
+        "name": "Bouvet Island",
+        "code": "BV",
+        "icon": "Bouvet-Island-32.png",
+        "callingCodeId": 47,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 30,
+        "name": "Brazil",
+        "code": "BR",
+        "icon": "Brazil-Flag-32.png",
+        "callingCodeId": 55,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 104,
+        "name": "British Indian Ocean Territory",
+        "code": "IO",
+        "icon": "India-Flag-32.png",
+        "callingCodeId": 246,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 28,
+        "name": "Brunei Darussalam",
+        "code": "BN",
+        "icon": "Brunei-Flag-32.png",
+        "callingCodeId": 673,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 23,
+        "name": "Bulgaria",
+        "code": "BG",
+        "icon": "Bulgaria-Flag-32.png",
+        "callingCodeId": 359,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 22,
+        "name": "Burkina Faso",
+        "code": "BF",
+        "icon": "Burkina-Faso-Flag-32.png",
+        "callingCodeId": 226,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 25,
+        "name": "Burundi",
+        "code": "BI",
+        "icon": "Burundi-Flag-32.png",
+        "callingCodeId": 257,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 51,
+        "name": "Cabo Verde",
+        "code": "CV",
+        "icon": "Cape-Verde-Flag-32.png",
+        "callingCodeId": 238,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 115,
+        "name": "Cambodia",
+        "code": "KH",
+        "icon": "Cambodia-Flag-32.png",
+        "callingCodeId": 855,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 46,
+        "name": "Cameroon",
+        "code": "CM",
+        "icon": "Cameroon-Flag-32.png",
+        "callingCodeId": 237,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 37,
+        "name": "Canada",
+        "code": "CA",
+        "icon": "Canada-Flag-32.png",
+        "callingCodeId": 1,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 256,
+        "name": "Caribbean Netherlands",
+        "code": "BQ",
+        "icon": "Netherlands-Flag-32.png",
+        "callingCodeId": 599,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 122,
+        "name": "Cayman Islands",
+        "code": "KY",
+        "icon": "Cayman-Islands-32.png",
+        "callingCodeId": 1345,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 40,
+        "name": "Central African Republic",
+        "code": "CF",
+        "icon": "central-african-republic-flag-32.png",
+        "callingCodeId": 236,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 210,
+        "name": "Chad",
+        "code": "TD",
+        "icon": "Chad-Flag-32.png",
+        "callingCodeId": 235,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 45,
+        "name": "Chile",
+        "code": "CL",
+        "icon": "Chile-Flag-32.png",
+        "callingCodeId": 56,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 47,
+        "name": "China",
+        "code": "CN",
+        "icon": "China-Flag-32.png",
+        "callingCodeId": 86,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 52,
+        "name": "Christmas Island",
+        "code": "CX",
+        "icon": "Christmas-Island32.png",
+        "callingCodeId": 6189164,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 38,
+        "name": "Cocos (Keeling) Islands",
+        "code": "CC",
+        "icon": "Cocos-Islands-32.png",
+        "callingCodeId": 6189162,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 48,
+        "name": "Colombia",
+        "code": "CO",
+        "icon": "Colombia-Flag-32.png",
+        "callingCodeId": 57,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 117,
+        "name": "Comoros",
+        "code": "KM",
+        "icon": "Comoros-Flag-32.png",
+        "callingCodeId": 269,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 41,
+        "name": "Congo",
+        "code": "CG",
+        "icon": "Congo-Flag-32.png",
+        "callingCodeId": 242,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 39,
+        "name": "Congo, Democratic Republic of the",
+        "code": "CD",
+        "icon": "Congo-Flag-32.png",
+        "callingCodeId": 243,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 44,
+        "name": "Cook Islands",
+        "code": "CK",
+        "icon": "Cook-Islands-32.png",
+        "callingCodeId": 682,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 49,
+        "name": "Costa Rica",
+        "code": "CR",
+        "icon": "Costa-Rica-Flag-32.png",
+        "callingCodeId": 506,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 43,
+        "name": "Côte d'Ivoire",
+        "code": "CI",
+        "icon": "Ivory-Coast-Flag-32.png",
+        "callingCodeId": 225,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 96,
+        "name": "Croatia",
+        "code": "HR",
+        "icon": "Croatian-Flag-32.png",
+        "callingCodeId": 385,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 50,
+        "name": "Cuba",
+        "code": "CU",
+        "icon": "Cuba-Flag-32.png",
+        "callingCodeId": 53,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 252,
+        "name": "Curaçao",
+        "code": "CW",
+        "icon": "Curacao-Flag-32.png",
+        "callingCodeId": 5999,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 53,
+        "name": "Cyprus",
+        "code": "CY",
+        "icon": "Cyprus-Flag-32.png",
+        "callingCodeId": 357,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 54,
+        "name": "Czechia",
+        "code": "CZ",
+        "icon": "Czech-Republic-Flag-32.png",
+        "callingCodeId": 420,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 57,
+        "name": "Denmark",
+        "code": "DK",
+        "icon": "Denmark32.png",
+        "callingCodeId": 45,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 56,
+        "name": "Djibouti",
+        "code": "DJ",
+        "icon": "Djibouti-Flag-32.png",
+        "callingCodeId": 253,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 58,
+        "name": "Dominica",
+        "code": "DM",
+        "icon": "Dominicana-32.png",
+        "callingCodeId": 1767,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 59,
+        "name": "Dominican Republic",
+        "code": "DO",
+        "icon": "Dominican-Republic-Flag-32.png",
+        "callingCodeId": 18,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 61,
+        "name": "Ecuador",
+        "code": "EC",
+        "icon": "Ecuador-Flag-32.png",
+        "callingCodeId": 593,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 63,
+        "name": "Egypt",
+        "code": "EG",
+        "icon": "Egypt-Flag-32.png",
+        "callingCodeId": 20,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 206,
+        "name": "El Salvador",
+        "code": "SV",
+        "icon": "El-Salvador-Flag-32.png",
+        "callingCodeId": 503,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 86,
+        "name": "Equatorial Guinea",
+        "code": "GQ",
+        "icon": "Equatorial-Guinea-Flag-32.png",
+        "callingCodeId": 240,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 65,
+        "name": "Eritrea",
+        "code": "ER",
+        "icon": "Eritrea-Flag-32.png",
+        "callingCodeId": 291,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 62,
+        "name": "Estonia",
+        "code": "EE",
+        "icon": "Estonia-32.png",
+        "callingCodeId": 372,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 208,
+        "name": "Eswatini",
+        "code": "SZ",
+        "icon": "Swaziland-Flag-32.png",
+        "callingCodeId": 268,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 67,
+        "name": "Ethiopia",
+        "code": "ET",
+        "icon": "Ethiopia-Flag-32.png",
+        "callingCodeId": 251,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 70,
+        "name": "Falkland Islands (Malvinas)",
+        "code": "FK",
+        "icon": "Falkland-Islands-32.png",
+        "callingCodeId": 500,
+        "isMainCountryCallingCode": true
+    },
+    {
+        "id": 72,
+        "name": "Faroe Islands",
+        "code": "FO",
+        "icon": "Faroe-Islands-32.png",
+        "callingCodeId": 298,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 69,
+        "name": "Fiji",
+        "code": "FJ",
+        "icon": "Fiji-Flag-32.png",
+        "callingCodeId": 679,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 68,
+        "name": "Finland",
+        "code": "FI",
+        "icon": "Finland-Flag-32.png",
+        "callingCodeId": 358,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 73,
+        "name": "France",
+        "code": "FR",
+        "icon": "France-Flag-32.png",
+        "callingCodeId": 33,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 78,
+        "name": "French Guiana",
+        "code": "GF",
+        "icon": "french-guiana-flag-32.png",
+        "callingCodeId": 594,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 172,
+        "name": "French Polynesia",
+        "code": "PF",
+        "icon": "French-Polynesia-32.png",
+        "callingCodeId": 689,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 211,
+        "name": "French Southern Territories",
+        "code": "TF",
+        "icon": "French-Southern-Territories32.png",
+        "callingCodeId": 262,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 74,
+        "name": "Gabon",
+        "code": "GA",
+        "icon": "Gabon-Flag-32.png",
+        "callingCodeId": 241,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 83,
+        "name": "Gambia",
+        "code": "GM",
+        "icon": "Gambia-Flag-32.png",
+        "callingCodeId": 220,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 77,
+        "name": "Georgia",
+        "code": "GE",
+        "icon": "Georgia-Flag-32.png",
+        "callingCodeId": 995,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 55,
+        "name": "Germany",
+        "code": "DE",
+        "icon": "Germany-Flag-32.png",
+        "callingCodeId": 49,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 80,
+        "name": "Ghana",
+        "code": "GH",
+        "icon": "Ghana-Flag-32.png",
+        "callingCodeId": 233,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 81,
+        "name": "Gibraltar",
+        "code": "GI",
+        "icon": "Gibraltar-Flag-32.png",
+        "callingCodeId": 350,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 87,
+        "name": "Greece",
+        "code": "GR",
+        "icon": "Greece-Flag-32.png",
+        "callingCodeId": 30,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 82,
+        "name": "Greenland",
+        "code": "GL",
+        "icon": "Greenland-Flag-32.png",
+        "callingCodeId": 299,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 76,
+        "name": "Grenada",
+        "code": "GD",
+        "icon": "Grenada32.png",
+        "callingCodeId": 1473,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 85,
+        "name": "Guadeloupe",
+        "code": "GP",
+        "icon": "Guadeloupe-32.png",
+        "callingCodeId": 590,
+        "isMainCountryCallingCode": true
+    },
+    {
+        "id": 90,
+        "name": "Guam",
+        "code": "GU",
+        "icon": "Guam-Flag-32.png",
+        "callingCodeId": 1671,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 89,
+        "name": "Guatemala",
+        "code": "GT",
+        "icon": "Guatemala-Flag-32.png",
+        "callingCodeId": 502,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 79,
+        "name": "Guernsey",
+        "code": "GG",
+        "icon": "Guernsey-32.png",
+        "callingCodeId": 441481,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 84,
+        "name": "Guinea",
+        "code": "GN",
+        "icon": "Guinea-Flag-32.png",
+        "callingCodeId": 224,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 91,
+        "name": "Guinea-Bissau",
+        "code": "GW",
+        "icon": "Guinea-Bissau-Flag-32.png",
+        "callingCodeId": 245,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 92,
+        "name": "Guyana",
+        "code": "GY",
+        "icon": "Guyana-Flag-32.png",
+        "callingCodeId": 592,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 97,
+        "name": "Haiti",
+        "code": "HT",
+        "icon": "Haiti-Flag-32.png",
+        "callingCodeId": 509,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 94,
+        "name": "Heard Island and McDonald Islands",
+        "code": "HM",
+        "icon": "Heard and McDonald Islands-32.png",
+        "callingCodeId": 61,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 231,
+        "name": "Holy See",
+        "code": "VA",
+        "icon": "Holy-see-Flag-32.png",
+        "callingCodeId": 3906698,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 95,
+        "name": "Honduras",
+        "code": "HN",
+        "icon": "Honduras-Flag-32.png",
+        "callingCodeId": 504,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 93,
+        "name": "Hong Kong",
+        "code": "HK",
+        "icon": "Hong-Kong-Flag-32.png",
+        "callingCodeId": 852,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 98,
+        "name": "Hungary",
+        "code": "HU",
+        "icon": "Hungary-Flag-32.png",
+        "callingCodeId": 36,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 107,
+        "name": "Iceland",
+        "code": "IS",
+        "icon": "Iceland-Flag-32.png",
+        "callingCodeId": 354,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 103,
+        "name": "India",
+        "code": "IN",
+        "icon": "India-Flag-32.png",
+        "callingCodeId": 91,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 99,
+        "name": "Indonesia",
+        "code": "ID",
+        "icon": "Indonesia-Flag-32.png",
+        "callingCodeId": 62,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 106,
+        "name": "Iran",
+        "code": "IR",
+        "icon": "Iran-Flag-32.png",
+        "callingCodeId": 98,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 105,
+        "name": "Iraq",
+        "code": "IQ",
+        "icon": "Iraq-Flag-32.png",
+        "callingCodeId": 964,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 100,
+        "name": "Ireland",
+        "code": "IE",
+        "icon": "Ireland-Flag-32.png",
+        "callingCodeId": 353,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 102,
+        "name": "Isle of Man",
+        "code": "IM",
+        "icon": "Isle-of-Man-Flag-32.png",
+        "callingCodeId": 441624,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 101,
+        "name": "Israel",
+        "code": "IL",
+        "icon": "Israel-Flag-32.png",
+        "callingCodeId": 972,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 108,
+        "name": "Italy",
+        "code": "IT",
+        "icon": "Italy-Flag-32.png",
+        "callingCodeId": 39,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 110,
+        "name": "Jamaica",
+        "code": "JM",
+        "icon": "Jamaica-Flag-32.png",
+        "callingCodeId": 1,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 112,
+        "name": "Japan",
+        "code": "JP",
+        "icon": "Japan-Flag-32.png",
+        "callingCodeId": 81,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 109,
+        "name": "Jersey",
+        "code": "JE",
+        "icon": "Jersey-Flag-32.png",
+        "callingCodeId": 441534,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 111,
+        "name": "Jordan",
+        "code": "JO",
+        "icon": "Jordan-Flag-32.png",
+        "callingCodeId": 962,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 123,
+        "name": "Kazakhstan",
+        "code": "KZ",
+        "icon": "Kazakhstan-Flag-32.png",
+        "callingCodeId": 7,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 113,
+        "name": "Kenya",
+        "code": "KE",
+        "icon": "Kenya-Flag-32.png",
+        "callingCodeId": 254,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 116,
+        "name": "Kiribati",
+        "code": "KI",
+        "icon": "Kiribati-32.png",
+        "callingCodeId": 686,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 255,
+        "name": "Kosovo",
+        "code": "XK",
+        "icon": "kosovo-flag-32.png",
+        "callingCodeId": 383,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 121,
+        "name": "Kuwait",
+        "code": "KW",
+        "icon": "Kuwait-Flag-32.png",
+        "callingCodeId": 965,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 114,
+        "name": "Kyrgyzstan",
+        "code": "KG",
+        "icon": "Kyrgyzstan-Flag-32.png",
+        "callingCodeId": 996,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 124,
+        "name": "Lao People's Democratic Republic",
+        "code": "LA",
+        "icon": "Laos-Flag-32.png",
+        "callingCodeId": 856,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 133,
+        "name": "Latvia",
+        "code": "LV",
+        "icon": "Latvia-Flag-32.png",
+        "callingCodeId": 371,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 125,
+        "name": "Lebanon",
+        "code": "LB",
+        "icon": "Lebanon-Flag-32.png",
+        "callingCodeId": 961,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 130,
+        "name": "Lesotho",
+        "code": "LS",
+        "icon": "Lesotho-Flag-32.png",
+        "callingCodeId": 266,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 129,
+        "name": "Liberia",
+        "code": "LR",
+        "icon": "Liberia-Flag-32.png",
+        "callingCodeId": 231,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 134,
+        "name": "Libya",
+        "code": "LY",
+        "icon": "Libya-Flag-32.png",
+        "callingCodeId": 218,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 127,
+        "name": "Liechtenstein",
+        "code": "LI",
+        "icon": "Liechtenstein-Flag-32.png",
+        "callingCodeId": 423,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 131,
+        "name": "Lithuania",
+        "code": "LT",
+        "icon": "Lithuania-Flag-32.png",
+        "callingCodeId": 370,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 132,
+        "name": "Luxembourg",
+        "code": "LU",
+        "icon": "Luxembourg-Flag-32.png",
+        "callingCodeId": 352,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 145,
+        "name": "Macao",
+        "code": "MO",
+        "icon": "Macau-Flag-32.png",
+        "callingCodeId": 853,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 139,
+        "name": "Madagascar",
+        "code": "MG",
+        "icon": "Madagascar-Flag-32.png",
+        "callingCodeId": 261,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 153,
+        "name": "Malawi",
+        "code": "MW",
+        "icon": "Malawi-Flag-32.png",
+        "callingCodeId": 265,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 155,
+        "name": "Malaysia",
+        "code": "MY",
+        "icon": "Malaysia32.png",
+        "callingCodeId": 60,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 152,
+        "name": "Maldives",
+        "code": "MV",
+        "icon": "Maldives-Flag-32.png",
+        "callingCodeId": 960,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 142,
+        "name": "Mali",
+        "code": "ML",
+        "icon": "Mali-Flag-32.png",
+        "callingCodeId": 223,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 150,
+        "name": "Malta",
+        "code": "MT",
+        "icon": "Malta-Flag-32.png",
+        "callingCodeId": 356,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 140,
+        "name": "Marshall Islands",
+        "code": "MH",
+        "icon": "Marshall-Islands-Flag-32.png",
+        "callingCodeId": 692,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 147,
+        "name": "Martinique",
+        "code": "MQ",
+        "icon": "Martinique-32.png",
+        "callingCodeId": 596,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 148,
+        "name": "Mauritania",
+        "code": "MR",
+        "icon": "Mauritania-Flag-32.png",
+        "callingCodeId": 222,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 151,
+        "name": "Mauritius",
+        "code": "MU",
+        "icon": "Mauritius-Flag-32.png",
+        "callingCodeId": 230,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 241,
+        "name": "Mayotte",
+        "code": "YT",
+        "icon": "Mayotte-Flag-32.png",
+        "callingCodeId": 262,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 154,
+        "name": "Mexico",
+        "code": "MX",
+        "icon": "Mexico-Flag-32.png",
+        "callingCodeId": 52,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 71,
+        "name": "Micronesia",
+        "code": "FM",
+        "icon": "Micronesia-Flag-32.png",
+        "callingCodeId": 691,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 137,
+        "name": "Moldova",
+        "code": "MD",
+        "icon": "Moldova-Flag-32.png",
+        "callingCodeId": 373,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 136,
+        "name": "Monaco",
+        "code": "MC",
+        "icon": "Monaco-Flag-32.png",
+        "callingCodeId": 377,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 144,
+        "name": "Mongolia",
+        "code": "MN",
+        "icon": "Mongolia-Flag-32.png",
+        "callingCodeId": 976,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 138,
+        "name": "Montenegro",
+        "code": "ME",
+        "icon": "Montenegro32.png",
+        "callingCodeId": 382,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 149,
+        "name": "Montserrat",
+        "code": "MS",
+        "icon": "Montserrat-Flag-32.png",
+        "callingCodeId": 1664,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 135,
+        "name": "Morocco",
+        "code": "MA",
+        "icon": "Morocco-Flag-32.png",
+        "callingCodeId": 212,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 156,
+        "name": "Mozambique",
+        "code": "MZ",
+        "icon": "Mozambique-Flag-32.png",
+        "callingCodeId": 2588,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 143,
+        "name": "Myanmar",
+        "code": "MM",
+        "icon": "Myanmar-32.png",
+        "callingCodeId": 95,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 157,
+        "name": "Namibia",
+        "code": "NA",
+        "icon": "Namibia-Flag-32.png",
+        "callingCodeId": 264,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 166,
+        "name": "Nauru",
+        "code": "NR",
+        "icon": "Nauru-Flag-32.png",
+        "callingCodeId": 674,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 165,
+        "name": "Nepal",
+        "code": "NP",
+        "icon": "Nepal-Flag-32.png",
+        "callingCodeId": 977,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 163,
+        "name": "Netherlands",
+        "code": "NL",
+        "icon": "Netherlands-Flag-32.png",
+        "callingCodeId": 31,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 158,
+        "name": "New Caledonia",
+        "code": "NC",
+        "icon": "New-Caledonia-Flag-32.png",
+        "callingCodeId": 687,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 168,
+        "name": "New Zealand",
+        "code": "NZ",
+        "icon": "New-Zealand32.png",
+        "callingCodeId": 64,
+        "isMainCountryCallingCode": true
+    },
+    {
+        "id": 162,
+        "name": "Nicaragua",
+        "code": "NI",
+        "icon": "Nicaragua-Flag-32.png",
+        "callingCodeId": 505,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 159,
+        "name": "Niger",
+        "code": "NE",
+        "icon": "Niger-Flag-32.png",
+        "callingCodeId": 227,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 161,
+        "name": "Nigeria",
+        "code": "NG",
+        "icon": "Nigeria-Flag-32.png",
+        "callingCodeId": 234,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 167,
+        "name": "Niue",
+        "code": "NU",
+        "icon": "Niue-Flag-32.png",
+        "callingCodeId": 683,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 160,
+        "name": "Norfolk Island",
+        "code": "NF",
+        "icon": "Norfolk-Island-32.png",
+        "callingCodeId": 6723,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 119,
+        "name": "North Korea",
+        "code": "KP",
+        "icon": "North-Korea-Flag-32.png",
+        "callingCodeId": 850,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 141,
+        "name": "North Macedonia",
+        "code": "MK",
+        "icon": "Macedonia-Flag-32.png",
+        "callingCodeId": 389,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 146,
+        "name": "Northern Mariana Islands",
+        "code": "MP",
+        "icon": "Northern-Mariana-Islands32.png",
+        "callingCodeId": 1670,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 164,
+        "name": "Norway",
+        "code": "NO",
+        "icon": "Norway-Flag-32.png",
+        "callingCodeId": 47,
+        "isMainCountryCallingCode": true
+    },
+    {
+        "id": 169,
+        "name": "Oman",
+        "code": "OM",
+        "icon": "Oman-Flag-32.png",
+        "callingCodeId": 968,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 175,
+        "name": "Pakistan",
+        "code": "PK",
+        "icon": "Pakistan-Flag-32.png",
+        "callingCodeId": 92,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 182,
+        "name": "Palau",
+        "code": "PW",
+        "icon": "Palau-Flag-32.png",
+        "callingCodeId": 680,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 180,
+        "name": "Palestine",
+        "code": "PS",
+        "icon": "Palestinian-Territory32.png",
+        "callingCodeId": 970,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 170,
+        "name": "Panama",
+        "code": "PA",
+        "icon": "Panama-Flag-32.png",
+        "callingCodeId": 507,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 173,
+        "name": "Papua New Guinea",
+        "code": "PG",
+        "icon": "Papua-New-Guinea-Flag-32.png",
+        "callingCodeId": 675,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 183,
+        "name": "Paraguay",
+        "code": "PY",
+        "icon": "Paraguay-Flag-32.png",
+        "callingCodeId": 595,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 171,
+        "name": "Peru",
+        "code": "PE",
+        "icon": "Peru-Flag-32.png",
+        "callingCodeId": 51,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 174,
+        "name": "Philippines",
+        "code": "PH",
+        "icon": "Philippines-Flag-32.png",
+        "callingCodeId": 63,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 178,
+        "name": "Pitcairn",
+        "code": "PN",
+        "icon": "Pitcairn-32.png",
+        "callingCodeId": 64,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 176,
+        "name": "Poland",
+        "code": "PL",
+        "icon": "Poland-Flag-32.png",
+        "callingCodeId": 48,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 181,
+        "name": "Portugal",
+        "code": "PT",
+        "icon": "Portugal-Flag-32.png",
+        "callingCodeId": 351,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 179,
+        "name": "Puerto Rico",
+        "code": "PR",
+        "icon": "Puerto-Rico-Flag-32.png",
+        "callingCodeId": 1,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 184,
+        "name": "Qatar",
+        "code": "QA",
+        "icon": "Qatar-Flag-32.png",
+        "callingCodeId": 974,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 185,
+        "name": "Réunion",
+        "code": "RE",
+        "icon": "Reunion-32.png",
+        "callingCodeId": 262,
+        "isMainCountryCallingCode": true
+    },
+    {
+        "id": 186,
+        "name": "Romania",
+        "code": "RO",
+        "icon": "Romania-Flag-32.png",
+        "callingCodeId": 40,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 188,
+        "name": "Russian Federation",
+        "code": "RU",
+        "icon": "Russia-Flag-32.png",
+        "callingCodeId": 7,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 189,
+        "name": "Rwanda",
+        "code": "RW",
+        "icon": "Rwanda-Flag-32.png",
+        "callingCodeId": 250,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 245,
+        "name": "Saint Barthélemy",
+        "code": "BL",
+        "icon": "Saint-Barthelemy-Flag-32.png",
+        "callingCodeId": 590,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 196,
+        "name": "Saint Helena, Ascension and Tristan da Cunha",
+        "code": "SH",
+        "icon": "Saint-Helena-Flag-32.png",
+        "callingCodeId": 290,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 118,
+        "name": "Saint Kitts and Nevis",
+        "code": "KN",
+        "icon": "Saint-Kitts-and-Nevis-32.png",
+        "callingCodeId": 1869,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 126,
+        "name": "Saint Lucia",
+        "code": "LC",
+        "icon": "Saint-Lucia-Flag-32.png",
+        "callingCodeId": 1758,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 246,
+        "name": "Saint Martin",
+        "code": "MF",
+        "icon": "Saint-Martin-Flag-32.png",
+        "callingCodeId": 590,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 177,
+        "name": "Saint Pierre and Miquelon",
+        "code": "PM",
+        "icon": "Saint Pierre and Miquelon32.png",
+        "callingCodeId": 508,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 232,
+        "name": "Saint Vincent and the Grenadines",
+        "code": "VC",
+        "icon": "Saint Vincent and the Grenadines32.png",
+        "callingCodeId": 1784,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 239,
+        "name": "Samoa",
+        "code": "WS",
+        "icon": "Samoa-Flag-32.png",
+        "callingCodeId": 685,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 201,
+        "name": "San Marino",
+        "code": "SM",
+        "icon": "San-Marino-Flag-32.png",
+        "callingCodeId": 378,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 205,
+        "name": "Sao Tome and Principe",
+        "code": "ST",
+        "icon": "Sao-Tome-and-Principe32.png",
+        "callingCodeId": 239,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 190,
+        "name": "Saudi Arabia",
+        "code": "SA",
+        "icon": "Saudi-Arabia-Flag-32.png",
+        "callingCodeId": 966,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 202,
+        "name": "Senegal",
+        "code": "SN",
+        "icon": "Senegal-Flag-32.png",
+        "callingCodeId": 221,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 187,
+        "name": "Serbia",
+        "code": "RS",
+        "icon": "Serbia-Flag-32.png",
+        "callingCodeId": 381,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 192,
+        "name": "Seychelles",
+        "code": "SC",
+        "icon": "Seychelles-Flag-32.png",
+        "callingCodeId": 248,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 200,
+        "name": "Sierra Leone",
+        "code": "SL",
+        "icon": "Sierra-Leone-Flag-32.png",
+        "callingCodeId": 232,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 195,
+        "name": "Singapore",
+        "code": "SG",
+        "icon": "Singapore-Flag-32.png",
+        "callingCodeId": 65,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 254,
+        "name": "Sint Maarten (Dutch part)",
+        "code": "SX",
+        "icon": "Saint-Martin-32.png",
+        "callingCodeId": 1721,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 199,
+        "name": "Slovakia",
+        "code": "SK",
+        "icon": "Slovakia-Flag-32.png",
+        "callingCodeId": 421,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 197,
+        "name": "Slovenia",
+        "code": "SI",
+        "icon": "Slovenia-Flag-32.png",
+        "callingCodeId": 386,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 191,
+        "name": "Solomon Islands",
+        "code": "SB",
+        "icon": "Solomon-Islands-Flag-32.png",
+        "callingCodeId": 677,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 203,
+        "name": "Somalia",
+        "code": "SO",
+        "icon": "Somalia-Flag-32.png",
+        "callingCodeId": 252,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 242,
+        "name": "South Africa",
+        "code": "ZA",
+        "icon": "South-Africa-Flag-32.png",
+        "callingCodeId": 27,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 88,
+        "name": "South Georgia and the South Sandwich Islands",
+        "code": "GS",
+        "icon": "Georgia-Flag-32.png",
+        "callingCodeId": 500,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 120,
+        "name": "South Korea",
+        "code": "KR",
+        "icon": "Korea-Flag-32.png",
+        "callingCodeId": 82,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 253,
+        "name": "South Sudan",
+        "code": "SS",
+        "icon": "Sudan-Flag-32.png",
+        "callingCodeId": 211,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 66,
+        "name": "Spain",
+        "code": "ES",
+        "icon": "Spain-Flag-32.png",
+        "callingCodeId": 34,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 128,
+        "name": "Sri Lanka",
+        "code": "LK",
+        "icon": "Sri-Lanka-Flag-32.png",
+        "callingCodeId": 94,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 193,
+        "name": "Sudan",
+        "code": "SD",
+        "icon": "Sudan-Flag-32.png",
+        "callingCodeId": 249,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 204,
+        "name": "Suriname",
+        "code": "SR",
+        "icon": "Suriname-Flag-32.png",
+        "callingCodeId": 597,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 198,
+        "name": "Svalbard and Jan Mayen[e]",
+        "code": "SJ",
+        "icon": "Jan-Mayen-Flag-32.png",
+        "callingCodeId": 47,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 194,
+        "name": "Sweden",
+        "code": "SE",
+        "icon": "Sweden-Flag-32.png",
+        "callingCodeId": 46,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 42,
+        "name": "Switzerland",
+        "code": "CH",
+        "icon": "Switzerland-Flag-32.png",
+        "callingCodeId": 41,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 207,
+        "name": "Syrian Arab Republic",
+        "code": "SY",
+        "icon": "Syria-Flag-32.png",
+        "callingCodeId": 963,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 223,
+        "name": "Taiwan, Province of China[b]",
+        "code": "TW",
+        "icon": "Taiwan-Flag-32.png",
+        "callingCodeId": 886,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 214,
+        "name": "Tajikistan",
+        "code": "TJ",
+        "icon": "Tajikistan-Flag-32.png",
+        "callingCodeId": 992,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 224,
+        "name": "Tanzania, United Republic of",
+        "code": "TZ",
+        "icon": "Tanzania-Flag-32.png",
+        "callingCodeId": 255,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 213,
+        "name": "Thailand",
+        "code": "TH",
+        "icon": "Thailand-Flag-32.png",
+        "callingCodeId": 66,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 216,
+        "name": "Timor-Leste",
+        "code": "TL",
+        "icon": "Timor-Leste-Flag-32.png",
+        "callingCodeId": 670,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 212,
+        "name": "Togo",
+        "code": "TG",
+        "icon": "Togo-Flag-32.png",
+        "callingCodeId": 228,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 215,
+        "name": "Tokelau",
+        "code": "TK",
+        "icon": "Tokelau32.png",
+        "callingCodeId": 690,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 219,
+        "name": "Tonga",
+        "code": "TO",
+        "icon": "Tonga-Flag-32.png",
+        "callingCodeId": 676,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 221,
+        "name": "Trinidad and Tobago",
+        "code": "TT",
+        "icon": "Trinidad-and-Tobago-32.png",
+        "callingCodeId": 1868,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 218,
+        "name": "Tunisia",
+        "code": "TN",
+        "icon": "Tunisia-Flag-32.png",
+        "callingCodeId": 216,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 220,
+        "name": "Türkiye",
+        "code": "TR",
+        "icon": "Turkey-Flag-32.png",
+        "callingCodeId": 90,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 217,
+        "name": "Turkmenistan",
+        "code": "TM",
+        "icon": "Turkmenistan-Flag-32.png",
+        "callingCodeId": 993,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 209,
+        "name": "Turks and Caicos Islands",
+        "code": "TC",
+        "icon": "Turks-and-Caicos-Islands32.png",
+        "callingCodeId": 1649,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 222,
+        "name": "Tuvalu",
+        "code": "TV",
+        "icon": "Tuvalu-Flag-32.png",
+        "callingCodeId": 688,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 226,
+        "name": "Uganda",
+        "code": "UG",
+        "icon": "Uganda-Flag-32.png",
+        "callingCodeId": 256,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 225,
+        "name": "Ukraine",
+        "code": "UA",
+        "icon": "Ukraine-Flag-32.png",
+        "callingCodeId": 380,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 2,
+        "name": "United Arab Emirates",
+        "code": "AE",
+        "icon": "United-Arab-Emirates-32.png",
+        "callingCodeId": 971,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 248,
+        "name": "United Kingdom of Great Britain and Northern Ireland",
+        "code": "GB",
+        "icon": "United-Kingdom-flag-32.png",
+        "callingCodeId": 44,
+        "isMainCountryCallingCode": true
+    },
+    {
+        "id": 227,
+        "name": "United States Minor Outlying Islands[f]",
+        "code": "UM",
+        "icon": "United-States-Flag-32.png",
+        "callingCodeId": 1,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 228,
+        "name": "United States of America",
+        "code": "US",
+        "icon": "United-States-Flag-32.png",
+        "callingCodeId": 1,
+        "isMainCountryCallingCode": true
+    },
+    {
+        "id": 229,
+        "name": "Uruguay",
+        "code": "UY",
+        "icon": "Uruguay-Flag-32.png",
+        "callingCodeId": 598,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 230,
+        "name": "Uzbekistan",
+        "code": "UZ",
+        "icon": "Uzbekistan-Flag-32.png",
+        "callingCodeId": 998,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 237,
+        "name": "Vanuatu",
+        "code": "VU",
+        "icon": "Vanuatu-Flag-32.png",
+        "callingCodeId": 678,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 233,
+        "name": "Venezuela (Bolivarian Republic of)",
+        "code": "VE",
+        "icon": "Venezuela-Flag-32.png",
+        "callingCodeId": 58,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 236,
+        "name": "Viet Nam",
+        "code": "VN",
+        "icon": "Vietnam-Flag-32.png",
+        "callingCodeId": 84,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 234,
+        "name": "Virgin Islands (British)",
+        "code": "VG",
+        "icon": "British-Virgin-Islands-32.png",
+        "callingCodeId": 1,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 235,
+        "name": "Virgin Islands (U.S.)",
+        "code": "VI",
+        "icon": "Virgin-Islands-Flag-32.png",
+        "callingCodeId": 1340,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 238,
+        "name": "Wallis and Futuna",
+        "code": "WF",
+        "icon": "Wallis-and-Futuna-Flag-32.png",
+        "callingCodeId": 681,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 240,
+        "name": "Yemen",
+        "code": "YE",
+        "icon": "Yemen-Flag-32.png",
+        "callingCodeId": 967,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 243,
+        "name": "Zambia",
+        "code": "ZM",
+        "icon": "Zambia-Flag-32.png",
+        "callingCodeId": 260,
+        "isMainCountryCallingCode": false
+    },
+    {
+        "id": 244,
+        "name": "Zimbabwe",
+        "code": "ZW",
+        "icon": "Zimbabwe-Flag-32.png",
+        "callingCodeId": 263,
+        "isMainCountryCallingCode": false
+    }
+]

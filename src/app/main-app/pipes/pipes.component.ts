@@ -1,13 +1,27 @@
 import { Component } from '@angular/core';
+import * as data from '../../../assets/callingCodes.json';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-pipes',
   templateUrl: './pipes.component.html',
-  styleUrl: './pipes.component.css'
+  styleUrl: './pipes.component.css',
 })
 export class PipesComponent {
 
+  inputNumber: number;
+
+  countryFlag: any;
+
+  callingCodes = (data as any).default;;
+
   selectedCountry: { id: string, name: string };
+
+  countryId: string;
+
+  inputNumberStr: string;
+
+
 
   countries: { id: string, name: string, population: number }[] = [
     { id: "HR", name: "Croatia", population: 4089400 },
@@ -45,8 +59,14 @@ export class PipesComponent {
     { id: "BA", name: "Bar", parentId: "ME", population: 44274 }
   ];
 
-  onSelectChange(selectedElement: any){
-    const selectedId = selectedElement;
-    console.log(selectedId);
+  onFlagInput(){
+    this.inputNumber = this.countryFlag;
+    console.log(this.countryFlag);
+  }
+
+  noInputNumber(){
+    this.inputNumberStr = String(this.inputNumber);
+    const selectedCountry = this.callingCodes.find(callingCodes => this.inputNumberStr.startsWith(callingCodes.callingCodeId));
+    this.inputNumber = selectedCountry ? selectedCountry.id : null;
   }
 }

@@ -1,8 +1,18 @@
 <div class="selestionDiv">
-    <select name="countries" id="" class="center" (change)="onSelectChange(country.value)" #country>
+    <select name="countries" id="" class="center" [(ngModel)]="countryId">
         <option *ngFor="let country of countries | sort" [value]="country.id">{{ country.name }}</option>
     </select>
     <select name="towns" id="" class="center">
-        <option *ngFor="let town of towns | filterTowns: country.value | sort" [value]="town.id">{{ town.name }}</option>
+        <option *ngFor="let town of towns | filterTowns: countryId | sort" [value]="town.id">{{ town.name }}</option>
     </select>
+    <div class="callNumberDiv">
+        <select [(ngModel)]="countryFlag" name="flags" class="countryFlag" (change)="onFlagInput()">
+            <option *ngFor="let flag of callingCodes"  [value]="flag.callingCodeId">
+                <img [src]="'../../../assets/images/flags/' + flag.icon" alt="{{ flag.name }}"> {{ flag.name }} +{{ flag.callingCodeId }}      
+            </option>
+        </select>
+        <p class="plus">+</p>
+        <input [(ngModel)]="inputNumber" class="callNumberInput" type="number" (change)="noInputNumber()">
+    </div>
 </div>
+
