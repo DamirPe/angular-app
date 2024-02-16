@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import * as data from '../../../assets/callingCodes.json';
-import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-pipes',
@@ -60,13 +59,13 @@ export class PipesComponent {
   ];
 
   onFlagInput(){
-    this.inputNumber = this.countryFlag;
-    console.log(this.countryFlag);
+    this.inputNumber = this.countryFlag.callingCodeId;
+    console.log(this.countryFlag.callingCodeId);
   }
 
   noInputNumber(){
     this.inputNumberStr = String(this.inputNumber);
-    const selectedCountry = this.callingCodes.find(callingCodes => this.inputNumberStr.startsWith(callingCodes.callingCodeId));
-    this.inputNumber = selectedCountry ? selectedCountry.id : null;
+    const selectedCountry = this.callingCodes.find(country => country.callingCodeId.startsWith(this.inputNumber));
+    console.log(selectedCountry);
   }
 }

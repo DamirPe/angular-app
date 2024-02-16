@@ -11,9 +11,17 @@
    margin: 20px;
 }
 
-.countryFlag{
-    width: 100px;
-    border-right: none;
+.flagSelectorDiv{
+   height: 20px;
+   border-top: 1px solid gray;
+   border-bottom: 1px solid gray;
+   border-left: 1px solid gray;
+   margin: none;
+   height: 20px;
+   width: auto;
+   display: flex;
+   justify-content: center;
+   align-content: center;
 }
 
 .plus {
@@ -47,3 +55,4 @@ input[type="number"]::-webkit-outer-spin-button {
   appearance: none;
   margin: 0;
 }
+
