@@ -1,30 +1,42 @@
-<div class="selestionDiv">
+<div class="selectionDiv">
     <select name="countries" id="" class="center" [(ngModel)]="countryId">
         <option *ngFor="let country of countries | sort" [value]="country.id">{{ country.name }}</option>
     </select>
     <select name="towns" id="" class="center">
         <option *ngFor="let town of towns | filterTowns: countryId | sort" [value]="town.id">{{ town.name }}</option>
     </select>
-    <div class="callNumberDiv">
-        <div class="flagSelectorDiv">
-            <p-dropdown [options]="callingCodes" [(ngModel)]="countryFlag" optionLabel="name" placeholder="Select a country" (onChange)="onFlagInput()">
-                <ng-template pTemplate="selectedItem">
-                    <div *ngIf="countryFlag">
-                        <img [src]="'../../../assets/images/flags/' + countryFlag.icon" alt="{{ countryFlag.name }}" style="height: 18px;">
-                    </div>
-                </ng-template>
-                <ng-template let-flag pTemplate="item">
-                    <div class="flex align-items-center gap-2">
-                        <div>
-                            <img [src]="'../../../assets/images/flags/' + flag.icon" alt="{{ flag.name }}" style="height: 18px;">
-                            {{flag.name }} + {{ flag.callingCodeId}}
-                        </div>
-                    </div>
-                </ng-template>
+    <div class="numberInputContainer">
+      <div *ngFor="let phone of phoneNumbers; let i = index">
+        <div class="callNumberDiv">
+          <div class="flagSelectorDiv">
+            <p-dropdown [options]="callingCodes" [(ngModel)]="phoneNumbers[i].country" optionLabel="name" placeholder=" ----- " (onChange)="onFlagInput()">
+              <ng-template pTemplate="selectedItem">
+                <div *ngIf="phoneNumbers[i].country" style="display: flex; justify-content: center;align-content: center;">
+                  <img [src]="'../../../assets/images/flags/' + phoneNumbers[i].country.icon" alt="{{ phoneNumbers[i].country.name }}" style="height: 18px;">
+                </div>
+              </ng-template>
+              <ng-template let-flag pTemplate="item">
+                <div>
+                  <div>
+                    <img [src]="'../../../assets/images/flags/' + flag.icon" alt="{{ flag.name }}" style="height: 18px;">
+                    {{ flag.name }} + {{ flag.callingCodeId }}
+                  </div>
+                </div>
+              </ng-template>
             </p-dropdown>
+          </div>
+          <p class="plus">+</p>
+          <input [(ngModel)]="phoneNumbers[i].number" class="callNumberInput" type="number" (ngModelChange)="noInputNumber()">
         </div>
-        <p class="plus">+</p>
-        <input [(ngModel)]="inputNumber" class="callNumberInput" type="number" (change)="noInputNumber()">
+    </div>
+    </div>
+    <div class="adAndDeleteButtonDiv">
+        <a (click)="addNewNumberInput()">
+            <i class="fa-solid fa-circle-plus" style="color: #20c10b;"></i>
+        </a>
+        <a (click)="deleteNewNumberInput()">
+            <i class="fa-solid fa-trash-can" style="color: red;"></i>
+        </a>
     </div>
 </div>
 

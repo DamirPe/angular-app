@@ -1,26 +1,32 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import * as data from '../../../assets/callingCodes.json';
+import { PhoneNumber } from '../../Models/phoneNumber.model';
 
 @Component({
   selector: 'app-pipes',
   templateUrl: './pipes.component.html',
   styleUrl: './pipes.component.css',
 })
-export class PipesComponent {
+export class PipesComponent implements OnInit {
 
   inputNumber: number;
-
   countryFlag: any;
-
   callingCodes = (data as any).default;;
-
   selectedCountry: { id: string, name: string };
-
   countryId: string;
-
   inputNumberStr: string;
+  phoneNumbers: PhoneNumber[] = [];
 
-
+  ngOnInit(){
+    this.phoneNumbers.push(new PhoneNumber({
+        id: 0,
+        name: '',
+        code: '',
+        icon: '',
+        callingCodeId: 0,
+        isMainCountryCallingCode: false
+      }, null));
+  }
 
   countries: { id: string, name: string, population: number }[] = [
     { id: "HR", name: "Croatia", population: 4089400 },
@@ -59,13 +65,41 @@ export class PipesComponent {
   ];
 
   onFlagInput(){
-    this.inputNumber = this.countryFlag.callingCodeId;
-    console.log(this.countryFlag.callingCodeId);
+    for (let i = 0; i < this.phoneNumbers.length; i++){
+      this.phoneNumbers[i].number = this.phoneNumbers[i].country.callingCodeId;
+      console.log(this.phoneNumbers[i].country.callingCodeId);
+    }
   }
 
   noInputNumber(){
-    this.inputNumberStr = String(this.inputNumber);
-    const selectedCountry = this.callingCodes.find(country => country.callingCodeId.startsWith(this.inputNumber));
-    console.log(selectedCountry);
+    for (let i = 0; i < this.phoneNumbers.length; i++){
+      for(let flagCallingCode of this.callingCodes){
+        const callingCodeString = flagCallingCode.callingCodeId.toString();
+        const inputNumberString = this.phoneNumbers[i].number.toString();
+        if(callingCodeString.indexOf(inputNumberString) === 0){
+          if(flagCallingCode.isMainCountryCallingCode){
+            this.phoneNumbers[i].country = flagCallingCode;
+            break;
+          }
+          this.phoneNumbers[i].country = flagCallingCode;
+        }
+      }
+    }
+    console.log(this.phoneNumbers.length);
+  }
+
+  addNewNumberInput(){
+    this.phoneNumbers.push(new PhoneNumber({
+      id: 0,
+      name: '',
+      code: '',
+      icon: '',
+      callingCodeId: 0,
+      isMainCountryCallingCode: false
+    }, null));
+  }
+
+  deleteNewNumberInput(){
+    this.phoneNumbers.pop();
   }
 }

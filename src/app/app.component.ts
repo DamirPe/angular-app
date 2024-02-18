@@ -1,6 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
-import { SharedService } from './shared.service';
+import { SharedService } from './Services/shared.service';
 
 @Component({
   selector: 'app-root',

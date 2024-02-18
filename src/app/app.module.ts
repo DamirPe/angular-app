@@ -8,12 +8,12 @@ import { SidebarComponent } from './Layout/sidebar/sidebar.component';
 import { MainAppComponent } from './main-app/main-app.component';
 import { HomepageComponent } from './main-app/homepage/homepage.component';
 import { AboutComponent } from './main-app/about/about.component';
-import { SharedService } from './shared.service';
+import { SharedService } from './Services/shared.service';
 import { FormsComponent } from './main-app/forms/forms.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PipesComponent } from './main-app/pipes/pipes.component';
-import { TownFilter } from './town-filter.pipe';
-import { SortPipe } from './sort.pipe';
+import { TownFilter } from './Pipes/town-filter.pipe';
+import { SortPipe } from './Pipes/sort.pipe';
 import { DropdownModule } from 'primeng/dropdown';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
