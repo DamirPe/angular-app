@@ -19,11 +19,11 @@ export class PipesComponent implements OnInit {
 
   ngOnInit(){
     this.phoneNumbers.push(new PhoneNumber({
-        id: 0,
+        id: null,
         name: '',
         code: '',
         icon: '',
-        callingCodeId: 0,
+        callingCodeId: null,
         isMainCountryCallingCode: false
       }, null));
   }
@@ -90,16 +90,18 @@ export class PipesComponent implements OnInit {
 
   addNewNumberInput(){
     this.phoneNumbers.push(new PhoneNumber({
-      id: 0,
+      id: null,
       name: '',
       code: '',
       icon: '',
-      callingCodeId: 0,
+      callingCodeId: null,
       isMainCountryCallingCode: false
     }, null));
   }
 
   deleteNewNumberInput(){
-    this.phoneNumbers.pop();
+    if(this.phoneNumbers.length > 1){
+      this.phoneNumbers.pop();
+    }
   }
 }
