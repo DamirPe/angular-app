@@ -6,6 +6,11 @@
         <option *ngFor="let town of towns | filterTowns: countryId | sort" [value]="town.id">{{ town.name }}</option>
     </select>
     <div class="numberInputContainer">
+      <div class="adButtonDiv">
+        <a (click)="addNewNumberInput()">
+            <i class="fa-solid fa-circle-plus" style="color: #20c10b;"></i>
+        </a>
+    </div>
       <div *ngFor="let phone of phoneNumbers; let i = index">
         <div class="callNumberDiv">
           <div class="flagSelectorDiv">
@@ -17,26 +22,21 @@
               </ng-template>
               <ng-template let-flag pTemplate="item">
                 <div>
-                  <div>
-                    <img [src]="'../../../assets/images/flags/' + flag.icon" alt="{{ flag.name }}" style="height: 18px;">
+                  <img [src]="'../../../assets/images/flags/' + flag.icon" alt="{{ flag.name }}" style="height: 18px;">
                     {{ flag.name }} + {{ flag.callingCodeId }}
-                  </div>
                 </div>
               </ng-template>
             </p-dropdown>
           </div>
           <p class="plus">+</p>
-          <input [(ngModel)]="phoneNumbers[i].number" class="callNumberInput" type="number" (ngModelChange)="noInputNumber()">
+          <input [(ngModel)]="phoneNumbers[i].number" class="callNumberInput" type="number" (ngModelChange)="noInputNumber(i)">
+          <div class="deleteButtonDiv">
+            <a (click)="deleteNewNumberInput(i)">
+              <i class="fa-solid fa-trash-can deleteIcon"></i>
+            </a>
+          </div>
         </div>
-    </div>
-    </div>
-    <div class="adAndDeleteButtonDiv">
-        <a (click)="addNewNumberInput()">
-            <i class="fa-solid fa-circle-plus" style="color: #20c10b;"></i>
-        </a>
-        <a (click)="deleteNewNumberInput()">
-            <i class="fa-solid fa-trash-can" style="color: red;"></i>
-        </a>
+      </div>
     </div>
 </div>
 

@@ -1,6 +1,7 @@
 
 .selectionDiv{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     height: 100vh;
@@ -48,7 +49,6 @@ input{
 
 .callNumberDiv{
     display: flex;
-    margin-top: 20px;
     margin-left: 20px;
 }  
 
@@ -71,16 +71,57 @@ input[type="number"]::-webkit-outer-spin-button {
   margin: 0;
 }
 
-.adAndDeleteButtonDiv{
-  display: flex;
-  flex-direction: column;
+input[type="number"]:focus {
+  outline: none;
+  border-color: inherit;
 }
 
-.adAndDeleteButtonDiv a {
+.adButtonDiv{
+  width: 245px;
+}
+
+.adButtonDiv a{
+  float: right;
   cursor: pointer;
-  margin-left: 4px;
 }
 
 
+.dropdownContainer{
+  pad: 10px;
+  border-radius: 4px;
+  background-color: brown;
+}
+
+.deleteButtonDiv{
+  padding-left: 5px;
+}
+
+.deleteButtonDiv a{
+  cursor: pointer;
+}
+
+.deleteIcon{
+  color: transparent;
+}
+
+.deleteIcon:hover{
+  color: red;
+}
+
+@media (max-width: 1200px){
+  .selectionDiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .center{
+    max-width: 245px;
+  }
+}
 
 

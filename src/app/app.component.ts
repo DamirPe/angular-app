@@ -18,6 +18,7 @@ export class AppComponent implements OnInit, OnDestroy {
   constructor(private sharedService: SharedService) {}  
   
   ngOnInit() {
+
     this.menuSubject = this.sharedService.getMenuVisibility().subscribe((data)=>{
       this.menuOpened = data;
     });
@@ -31,4 +32,6 @@ export class AppComponent implements OnInit, OnDestroy {
     this.menuSubject.unsubscribe();
     this.themeSubscription.unsubscribe();
   }
+
+
 }

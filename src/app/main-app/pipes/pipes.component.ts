@@ -71,21 +71,19 @@ export class PipesComponent implements OnInit {
     }
   }
 
-  noInputNumber(){
-    for (let i = 0; i < this.phoneNumbers.length; i++){
-      for(let flagCallingCode of this.callingCodes){
+  noInputNumber(index: number){
+    for(let flagCallingCode of this.callingCodes){
         const callingCodeString = flagCallingCode.callingCodeId.toString();
-        const inputNumberString = this.phoneNumbers[i].number.toString();
+        const inputNumberString = this.phoneNumbers[index].number.toString();
         if(callingCodeString.indexOf(inputNumberString) === 0){
           if(flagCallingCode.isMainCountryCallingCode){
-            this.phoneNumbers[i].country = flagCallingCode;
+            this.phoneNumbers[index].country = flagCallingCode;
             break;
           }
-          this.phoneNumbers[i].country = flagCallingCode;
+          this.phoneNumbers[index].country = flagCallingCode;
         }
       }
-    }
-    console.log(this.phoneNumbers.length);
+    // console.log(this.phoneNumbers.length);
   }
 
   addNewNumberInput(){
@@ -99,9 +97,9 @@ export class PipesComponent implements OnInit {
     }, null));
   }
 
-  deleteNewNumberInput(){
+  deleteNewNumberInput(i:number){
     if(this.phoneNumbers.length > 1){
-      this.phoneNumbers.pop();
+      this.phoneNumbers.splice(i, 1);
     }
   }
 }

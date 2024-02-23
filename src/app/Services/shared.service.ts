@@ -5,8 +5,9 @@ export class SharedService {
   private menzOpen = false;
   private menuVisibilitySubject = new Subject<boolean>();
   private mainAppThemeObs = new BehaviorSubject<string>(null);
+  theme = JSON.parse(localStorage.getItem('formData')).theme;
 
-  private dataSourceThemeColor = new BehaviorSubject<string>("#fff"); // #fff is the initial value that is emitted when a component subscribes to themeColor$
+  private dataSourceThemeColor = new BehaviorSubject<string>(this.theme); // #fff is the initial value that is emitted when a component subscribes to themeColor$
   themeColor$ = this.dataSourceThemeColor.asObservable(); // $ at the end is a convention to indicate that a variable is an observable
 
   toggleMenu() {
