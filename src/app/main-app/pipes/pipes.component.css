@@ -30,6 +30,7 @@
    align-content: center;
    border-top-left-radius: 4px;
    border-bottom-left-radius: 4px;
+   background-color: white;
 }
 
 .plus {
@@ -37,6 +38,7 @@
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
     margin: none;
+    background-color: white;
   }
   
 select {
