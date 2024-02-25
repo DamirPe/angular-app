@@ -14,14 +14,14 @@
       <div *ngFor="let phone of phoneNumbers; let i = index">
         <div class="callNumberDiv">
           <div class="flagSelectorDiv">
-            <p-dropdown [options]="callingCodes" [(ngModel)]="phoneNumbers[i].country" optionLabel="name" placeholder=" ----- " (onChange)="onFlagInput()">
+            <p-dropdown [options]="callingCodes" [(ngModel)]="phoneNumbers[i].country" optionLabel="name" (onChange)="onFlagInput()">
               <ng-template pTemplate="selectedItem">
                 <div *ngIf="phoneNumbers[i].country" style="display: flex; justify-content: center;align-content: center;">
                   <img [src]="'../../../assets/images/flags/' + phoneNumbers[i].country.icon" alt="{{ phoneNumbers[i].country.name }}" style="height: 18px;">
                 </div>
               </ng-template>
               <ng-template let-flag pTemplate="item">
-                <div>
+                <div style="background-color: white;width: 245px;padding: 0px 10px;">
                   <img [src]="'../../../assets/images/flags/' + flag.icon" alt="{{ flag.name }}" style="height: 18px;">
                     {{ flag.name }} + {{ flag.callingCodeId }}
                 </div>

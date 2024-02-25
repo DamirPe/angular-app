@@ -37,7 +37,7 @@ ul{
  
 .personalDataDiv{
     display: flex;
-    align-content: center;
+    align-items: center;
 }
 
 .section {
