@@ -16,6 +16,7 @@ import { TownFilter } from './Pipes/town-filter.pipe';
 import { SortPipe } from './Pipes/sort.pipe';
 import { DropdownModule } from 'primeng/dropdown';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { WorkoutLogComponent } from './main-app/workout-log/workout-log.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FormsComponent,
     PipesComponent,
     TownFilter,
-    SortPipe
+    SortPipe,
+    WorkoutLogComponent
   ],
   imports: [
     BrowserModule,
