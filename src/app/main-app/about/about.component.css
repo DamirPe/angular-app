@@ -18,8 +18,14 @@
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
-    margin-left: 90px;
 
+}
+
+.leftContent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
 
 

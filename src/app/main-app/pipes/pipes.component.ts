@@ -11,7 +11,7 @@ export class PipesComponent implements OnInit {
 
   inputNumber: number;
   countryFlag: any;
-  callingCodes = (data as any).default;;
+  callingCodes = (data as any).default;
   selectedCountry: { id: string, name: string };
   countryId: string;
   inputNumberStr: string;

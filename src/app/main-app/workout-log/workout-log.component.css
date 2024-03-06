@@ -1,0 +1,38 @@
+.buttonDiv{
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.setRepInput{
+    width: 40px;
+}
+
+.formControl{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+input{
+    height: 50px;
+    border: 1px solid #d1d5db;
+}
+
+.borderRadius{
+    border-radius: 6px;
+}
+
+.exerciseSetRepDiv{
+    display: flex;
+}
+
+#exerciseDropdown{
+    border-right: none;
+}

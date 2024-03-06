@@ -17,6 +17,10 @@ import { SortPipe } from './Pipes/sort.pipe';
 import { DropdownModule } from 'primeng/dropdown';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { WorkoutLogComponent } from './main-app/workout-log/workout-log.component';
+import { DialogModule } from 'primeng/dialog';
+import { ButtonModule } from 'primeng/button';
+import { MultiSelectModule } from 'primeng/multiselect';
+import { ExerciseFilterPipe } from './pipes/exercise-filter.pipe';
 
 @NgModule({
   declarations: [
@@ -30,7 +34,9 @@ import { WorkoutLogComponent } from './main-app/workout-log/workout-log.componen
     PipesComponent,
     TownFilter,
     SortPipe,
-    WorkoutLogComponent
+    WorkoutLogComponent,
+    ExerciseFilterPipe,
+    
   ],
   imports: [
     BrowserModule,
@@ -38,7 +44,10 @@ import { WorkoutLogComponent } from './main-app/workout-log/workout-log.componen
     ReactiveFormsModule,
     FormsModule,
     DropdownModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    DialogModule,
+    ButtonModule,
+    MultiSelectModule
   ],
   providers: [SharedService],
   bootstrap: [AppComponent]

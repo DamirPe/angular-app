@@ -1,19 +1,53 @@
 <div style="height: 100vh;">
-    <div class="modal fade" id="myModal">
-        <div class="modal-dialog">
-            <div class="modal-header">
-                <h3>title</h3>
+    <div class="buttonDiv">
+        <p-button (click)="showDialog()" icon="pi" label="+ Add New Workout"></p-button>
+    </div>
+    <p-dialog header="Create Workout" [(visible)]="visible" [modal]="true" [style]="{ width: '50vw', height: '500px' }" [draggable]="false" [resizable]="false" [dismissableMask]="true">
+        <form [formGroup]="workoutForm">
+            <div class="formControl">
+                <label for="date">Date</label>
+                <input formControlName="date" class="borderRadius" type="date" name="date" id="date">
             </div>
-            <div class="modal-body">
-                This is body
+            <div class="formControl">
+                <label for="duration">Duration</label>
+                <input formControlName="duration" class="borderRadius" type="number" name="number" id="number">
             </div>
-            <div class="modal-footer">
-                <button class="btn btn-primary">button</button>
+            <div class="formControl">
+                <label for="muscleGroup">Muscle Group</label>
+                <p-multiSelect formControlName="muscleGroup" appendTo="body" [options]="bodyParts" [showHeader]="false" optionLabel="name" (onChange)="onMultiSelectChange()">
+                </p-multiSelect>
+            </div>
+        </form>
+        <div>
+            <a (click)="addExercise()">
+                <i class="fa-solid fa-circle-plus" style="color: #20c10b;"></i>
+            </a>
+        </div>
+        <div>
+            <label for="exercises">Select exercise</label>
+        </div>
+        <div *ngFor="let exerciseComponent of exerciseInputArray; let i = index; ">
+            <div class="exerciseSetRepDiv">
+                <div>
+                    <p-dropdown id="exerciseDropdown" [options]="exercises | exerciseFilter: workoutForm.controls['muscleGroup'].value " appendTo="body" [(ngModel)]="exerciseInputArray[i].exercise" placeholder="Exercise">
+                        <ng-template let-selectedExerciseItem pTemplate="selectedItem">
+                            {{ selectedExerciseItem.name }}
+                        </ng-template>
+                        <ng-template let-exerciseItem pTemplate="item">
+                            {{ exerciseItem.name }}
+                        </ng-template>
+                    </p-dropdown>
+                </div>
+                <div>
+                    <input class="setRepInput" [(ngModel)]="exerciseInputArray[i].sets" type="number" name="sets">
+                </div>
+                <div>
+                    <input class="setRepInput" [(ngModel)]="exerciseInputArray[i].reps" type="number" name="reps">
+                </div>
             </div>
         </div>
-    </div>
-
-    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
-        + Add New Workout
-    </button>
+        <ng-template pTemplate="footer">
+            <p-button type="submit" (onClick)="onSubmit()" icon="pi pi-check" label="Add" pAutoFocus [autofocus]="true"></p-button>
+        </ng-template>
+    </p-dialog>
 </div>
